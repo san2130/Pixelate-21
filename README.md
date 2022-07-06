@@ -6,9 +6,7 @@
 <h4 align=center>Computer Vision based event organised by Robotics Club of IIT (BHU) Varanasi</h4><br>
     
 <p align=center>
-    <img align=center src = "media/arena.gif" alt = "Arena" width = "250">
-    <img align=center src="media/bot-with-arena.png" width="250">
-    <img align=center src = "media/husky.gif" alt = "Bot" width = "250"> 
+    <img src="https://github.com/san2130/Pixelate-21/blob/main/robo.jpg" width="30%"/>
 </p>
     
 <h3> Problem Statement</h3>
@@ -81,17 +79,11 @@
 5. This continues till the bot has completed a full round around the center, then it should move to home zone.<br>
 6. On reaching the home zone the bot should signal that it has finished the task and process will terminate. <br>
     
-<h3 align=center> <a href="https://youtu.be/en2RBVNymok">Our Approach </a></h3>
+<h3 align=center>Our Approach</h3>
     
-1. We used <b>Computer Vision</b> for Image Segmentation (extracting shapes of different colors from the arena) and <b>Breadth First Search</b> algorithm (on a customly designed directed graph) to trace path from the current position of the bot to all occurences of the required shape in the arena. From all the paths secured above, one with minimum length was considered. Popular physics engine <b>PyBullet</b> was utilized for simulating our bot on the arena. <b>Aruco Marker</b> was used to determine the current position of the bot at any instant. <br>
-2. First, a <b>Directed Graph</b> is created, in which edges are added in the direction of allowed movement. <br>
-3. <b>Shapes</b> and <b>Color</b> in each grid of the arena is detected using several techniques such as <b>Masking, Erosion, Dilation</b> and <b>Contour Approximation.</b><br>
-4. A function (<code>roll_dice</code>) returns a <b>shape-color</b> combination to the bot during each turn in order to figure out the next destination to visit on the arena. <br>
-5. Then <b>BFS</b> (Breadth First Search) is used to determine the all possible paths from the current position of the bot to the next destination. Among the paths secured, one with minimum length is considered for traversal.<br>
-6. Two <b>vectors</b> are created providing the positions, along with the angles, of the bot and the destination grid. Various custom-made functions, such as <code>dist()</code>, <code>ang()</code>, <code>rotate()</code> and <code>move()</code>, are employed in order to facilitate the movement of the bot. <br>
-7. After the bot crosses the first grid, the <i>graph edges are altered</i> in a way that the bot enters the home after completion of a clockwise round and doesn't retrace the previous path.The task is completed after the bot reaches the central home grid.<br>
+- We used <b>Computer Vision</b> for Image Segmentation (extracting shapes of different colors from the arena) and <b>Djikstra</b> algorithm (on a weighted directed graph) to trace path. 
 
-<h3 align=center>Team Enigma</h3>
+<h3 align=center>Team B11</h3>
     
 <table align=center>
    <td align="center">
