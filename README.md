@@ -6,7 +6,7 @@
 <h4 align=center>Computer Vision based event organised by Robotics Club of IIT (BHU) Varanasi</h4><br>
     
 <p align=center>
-    <img src="https://github.com/san2130/Pixelate-21/blob/main/robo.jpg" width="30%"/>
+    <img src="https://github.com/san2130/Pixelate-21/blob/main/robo%20(1).jpg" width="30%"/>
 </p>
     
 <h3> Problem Statement</h3>
@@ -20,8 +20,9 @@
 - The bot has an ArUco marker on top of it and we are given a static overhead camera feed. 
 <br> 
 
-<h2 align="center">The Pybullet Arena<br><br><img src="https://github.com/san2130/Pixelate-21/blob/main/Arena.png"/></h2> 
-
+<h2 align="center">The Pybullet Arena<br><br><img src="https://github.com/san2130/Pixelate-21/blob/main/Arena.png" width="70%"/></h2> 
+<br>
+    
 ### Approach
 
 - We used Computer Vision OpenCV functions to read the camera image and preprocess the grid data by creating a custom mask for every colour and segmenting it out and then applying shape detection on it to detect a square, circle and triangle. 
@@ -31,9 +32,13 @@
 - The program terminates after both the patients have been taken to their respective hospitals. 
 - For movement of the bot, on every cell the camera feed is called and the position of the bot and its orientation are detected using OpenCV functions, based on which the Proportional Controller calculates the torque to be given, to each wheel.  
     
+<br>
+
 ### Working
 You can check out the final video of the Pybullet simulation [here](https://drive.google.com/file/d/1RNXEZoWE4vzxKnGCpUiqtI4abuo0aFy0/view?usp=sharing).  
-
+<br>
+<br>
+    
 <h3 align=center>Team B11</h3>
     
 <table align=center>
