@@ -18,9 +18,9 @@
 - There are certain cells which can be entered from only one direction specified by a red triangle on top of it. 
 - Basically our bot has to go to each patient and take it to the corresponding hospital(covid/non-covid) while taking the valid path with minimum cost. 
 - The bot has an ArUco marker on top of it and we are given a static overhead camera feed. 
-<h3 align=center>Plan of Action</h3>
+<br> 
 
-### The Pybullet Arena 
+<h2 align="center">The Pybullet Arena<br><br><img src="https://github.com/san2130/Pixelate-21/blob/main/Arena.png"/></h2> 
 
 ### Approach
 
@@ -29,10 +29,10 @@
 - The minimum path to each patient is caluclated using Djikstra's Algorithm, and then the bot is made to move towards it. 
 - After picking up the patient, we check whether the patient is covid/non-covid by removing the pink cover and then he is taken to the appropriate hospital, again following the minimum path. 
 - The program terminates after both the patients have been taken to their respective hospitals. 
-- For movement of the bot, on every cell the camera feed is called and the position of the bot and its orientation are detected using OpenCV functions, based on which the Proportional Controller calculates the torque to be given, in each direction. 
+- For movement of the bot, on every cell the camera feed is called and the position of the bot and its orientation are detected using OpenCV functions, based on which the Proportional Controller calculates the torque to be given, to each wheel.  
     
 ### Working
-You can check out the final video of the Pybullet simulation here.  
+You can check out the final video of the Pybullet simulation [here](https://drive.google.com/file/d/1RNXEZoWE4vzxKnGCpUiqtI4abuo0aFy0/view?usp=sharing).  
 
 <h3 align=center>Team B11</h3>
     
