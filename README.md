@@ -38,7 +38,23 @@
 You can check out the final video of the Pybullet simulation [here](https://drive.google.com/file/d/1RNXEZoWE4vzxKnGCpUiqtI4abuo0aFy0/view?usp=sharing).  
 <br>
 <br>
-    
+### Setup  
+- Clone the repo and create a virtual environment and activate it using 
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+- Then execute the folowing command
+``` 
+pip install -e pixelate_arena
+```  
+- Execute our solution b11.py using 
+```
+python3 b11.py
+```
+<br>
+<br>  
+
 <h3 align=center>Team B11</h3>
     
 <table align=center>
