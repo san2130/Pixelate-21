@@ -60,7 +60,7 @@ python3 b11.py
 <table align=center>
    <td align="center">
       <a href="https://github.com/san2130">
-         <img src="https://avatars2.githubusercontent.com/u/60649618?s=460&v=4" width="150px;" alt=""/>
+         <img src="https://avatars.githubusercontent.com/u/88130555?v=4" width="150px;" alt=""/>
          <br />
          <sub>
             <b>Sandeepan Ghosh</b>
