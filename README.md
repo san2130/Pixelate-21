@@ -69,8 +69,8 @@ python3 b11.py
       <br />
    </td>
    <td align="center">
-      <a href="/">
-         <img src="" alt=""/>
+      <a href="https://github.com/raghavansh">
+         <img src="https://avatars.githubusercontent.com/u/78599181?v=4" width="100px" alt=""/>
          <br />
          <sub>
             <b>Raghavansh Singla</b>
