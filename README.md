@@ -60,7 +60,7 @@ python3 b11.py
 <table align=center>
    <td align="center">
       <a href="https://github.com/san2130">
-         <img src="https://avatars2.githubusercontent.com/u/60649618?s=460&v=4" width="100px;" alt=""/>
+         <img src="https://avatars2.githubusercontent.com/u/60649618?s=460&v=4" width="150px;" alt=""/>
          <br />
          <sub>
             <b>Sandeepan Ghosh</b>
@@ -70,7 +70,7 @@ python3 b11.py
    </td>
    <td align="center">
       <a href="https://github.com/raghavansh">
-         <img src="https://avatars.githubusercontent.com/u/78599181?v=4" width="100px" alt=""/>
+         <img src="https://avatars.githubusercontent.com/u/78599181?v=4" width="150px" alt=""/>
          <br />
          <sub>
             <b>Raghavansh Singla</b>
