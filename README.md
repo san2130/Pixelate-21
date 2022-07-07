@@ -13,7 +13,7 @@
 
 - There is a **12*12** Grid made up of cells of different colors **white, black, blue, green, yellow, red, pink**.
 - There are exactly **2 pink tiles** one with a **dark blue circle** and the other, a **dark blue square** on top of it. There are exactly **2 light blue tiles** one with a **dark blue circle** and the other, a **dark blue square** on top of it. 
-- **Circle** on **pink** tile represents a **covid patient** and **circle** on a **blue tile** represents **covid hospital** while similarly the **square** corresponds to **non covid patients and hospitals**.
+- **Circle** on **pink** tile represents a **covid patient** and **circle** on a **blue tile** represents **covid hospital** while similarly the **square** corresponds to **non covid** patients and hospitals.
 - Each colored tile has a certain cost with it **red-4, yellow-3, green-2, white-1, black-invalid cell**.
 - There are certain cells which can be entered from only **one direction** specified by a **red triangle** on top of it. 
 - Basically our bot has to go to each patient and take it to the corresponding hospital(covid/non-covid) while taking the valid path with **minimum cost**. 
